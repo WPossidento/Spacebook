@@ -14,6 +14,11 @@
 		522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */; };
 		522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF21D4BC74A0028624E /* Assets.xcassets */; };
 		522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */; };
+		CEEC408A1D4BCC02004B4E9D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */; };
+		CEEC40B81D4BCEA0004B4E9D /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B11D4BCEA0004B4E9D /* Book+CoreDataProperties.m */; };
+		CEEC40B91D4BCEA0004B4E9D /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B31D4BCEA0004B4E9D /* Book.m */; };
+		CEEC40BA1D4BCEA0004B4E9D /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B51D4BCEA0004B4E9D /* User+CoreDataProperties.m */; };
+		CEEC40BB1D4BCEA0004B4E9D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B71D4BCEA0004B4E9D /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,15 @@
 		522BFCF21D4BC74A0028624E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522BFCF51D4BC74A0028624E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BFCF71D4BC74A0028624E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEC40891D4BCC02004B4E9D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CEEC40B01D4BCEA0004B4E9D /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CEEC40B11D4BCEA0004B4E9D /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CEEC40B21D4BCEA0004B4E9D /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		CEEC40B31D4BCEA0004B4E9D /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		CEEC40B41D4BCEA0004B4E9D /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CEEC40B51D4BCEA0004B4E9D /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CEEC40B61D4BCEA0004B4E9D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CEEC40B71D4BCEA0004B4E9D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,7 @@
 		522BFCD71D4BC74A0028624E = {
 			isa = PBXGroup;
 			children = (
+				CEEC40AF1D4BCE72004B4E9D /* CoreData */,
 				522BFCE21D4BC74A0028624E /* Spacebook */,
 				522BFCE11D4BC74A0028624E /* Products */,
 			);
@@ -80,6 +95,22 @@
 				522BFCE41D4BC74A0028624E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEEC40AF1D4BCE72004B4E9D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */,
+				CEEC40B01D4BCEA0004B4E9D /* Book+CoreDataProperties.h */,
+				CEEC40B11D4BCEA0004B4E9D /* Book+CoreDataProperties.m */,
+				CEEC40B21D4BCEA0004B4E9D /* Book.h */,
+				CEEC40B31D4BCEA0004B4E9D /* Book.m */,
+				CEEC40B41D4BCEA0004B4E9D /* User+CoreDataProperties.h */,
+				CEEC40B51D4BCEA0004B4E9D /* User+CoreDataProperties.m */,
+				CEEC40B61D4BCEA0004B4E9D /* User.h */,
+				CEEC40B71D4BCEA0004B4E9D /* User.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +185,12 @@
 			files = (
 				522BFCEB1D4BC74A0028624E /* ViewController.m in Sources */,
 				522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */,
+				CEEC40BB1D4BCEA0004B4E9D /* User.m in Sources */,
+				CEEC40B81D4BCEA0004B4E9D /* Book+CoreDataProperties.m in Sources */,
+				CEEC408A1D4BCC02004B4E9D /* Model.xcdatamodeld in Sources */,
 				522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */,
+				CEEC40B91D4BCEA0004B4E9D /* Book.m in Sources */,
+				CEEC40BA1D4BCEA0004B4E9D /* User+CoreDataProperties.m in Sources */,
 				522BFCE51D4BC74A0028624E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +342,7 @@
 				522BFCFC1D4BC74A0028624E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -317,6 +354,16 @@
 			);
 			currentVersion = 522BFCF01D4BC74A0028624E /* Spacebook.xcdatamodel */;
 			path = Spacebook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEEC40891D4BCC02004B4E9D /* Model.xcdatamodel */,
+			);
+			currentVersion = CEEC40891D4BCC02004B4E9D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
