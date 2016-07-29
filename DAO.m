@@ -44,8 +44,8 @@
   User *user = [NSEntityDescription insertNewObjectForEntityForName:@"User" inManagedObjectContext:self.context];
   [user setValue:@"Kurt" forKey:@"name"];
   [user setValue:[NSNumber numberWithInt:2] forKey:@"userID"];
-  [user setValue:[NSNumber numberWithInt:5] forKey:@"rating"];
-  [user setValue:[NSNumber numberWithInt:100] forKey:@"totalRatings"];
+  [user setTotalRatingStars:[NSNumber numberWithDouble:500]];
+  [user setTotalPeopleRated:[NSNumber numberWithDouble:100]];
   Book *book = (Book *)[NSEntityDescription insertNewObjectForEntityForName:@"Books" inManagedObjectContext:self.context];
   [book setTitle:@"Slaughterhouse IV"];
   [book setCoverImage:@"s5img"];
@@ -88,12 +88,12 @@
 
 - (void)addNewBook:(Book *)book {
   book = [NSEntityDescription insertNewObjectForEntityForName:@"Book" inManagedObjectContext:self.context];
-  [book setValue:book.name forKey:@"title"];
-  [book setValue:book.coverImage forKey:@"coverImage"];
-  [book setValue:book.author forKey:@"author"];
-  [book setValue:book.isbn forKey:@"isbn"];
-  [book setValue:book.bearer forKey:@"bearer"];
-  [book setValue:book.isHome forKey:@"isHome"];
+  [book setTitle:book.name];
+  [book setCoverImage:book.coverImage];
+  [book setAuthor:book.author];
+  [book setIsbn:book.isbn];
+  [book setBearer:book.bearer];
+  [book setIsHome:book.isHome];
   [self saveChanges];
   [self.booksForUser addObject:book];
 }
@@ -105,6 +105,14 @@
     NSLog(@"Error saving: %@", [err localizedDescription]);
   }
   NSLog(@"data saved");
+}
+
+- (void)calculateUserRating:(double)newRating {
+  double adjustedTotalStars = [self.currentUser.totalRatingStars doubleValue] + newRating;
+  double adjustedPeopleRated = [self.currentUser.totalPeopleRated doubleValue] + 1;
+  [self.currentUser setTotalRatingStars:[NSNumber numberWithDouble:adjustedTotalStars]];
+  [self.currentUser setTotalPeopleRated:[NSNumber numberWithDouble:adjustedPeopleRated]];
+  [self saveChanges];
 }
 
 @end

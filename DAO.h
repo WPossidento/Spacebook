@@ -16,7 +16,7 @@
 @property (nonatomic, retain) NSMutableArray *booksForUser;
 @property (nonatomic, retain) NSManagedObjectContext *context;
 @property (nonatomic, retain) NSManagedObjectModel *model;
-@property (nonatomic, retain) User *user;
+@property (nonatomic, retain) User *currentUser;
 
 + (instancetype)sharedInstance;
 - (instancetype)customInit;

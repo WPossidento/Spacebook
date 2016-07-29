@@ -15,10 +15,10 @@
 		522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */; };
 		CEEC408A1D4BCC02004B4E9D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */; };
 		CEF168501D4BCFF700EF6361 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1684F1D4BCFF700EF6361 /* DAO.m */; };
-		CEF168651D4BDC8800EF6361 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1685E1D4BDC8800EF6361 /* Book+CoreDataProperties.m */; };
-		CEF168661D4BDC8800EF6361 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168601D4BDC8800EF6361 /* Book.m */; };
-		CEF168671D4BDC8800EF6361 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168621D4BDC8800EF6361 /* User+CoreDataProperties.m */; };
-		CEF168681D4BDC8800EF6361 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168641D4BDC8800EF6361 /* User.m */; };
+		CEF1688F1D4C0CE100EF6361 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168881D4C0CE100EF6361 /* Book+CoreDataProperties.m */; };
+		CEF168901D4C0CE100EF6361 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1688A1D4C0CE100EF6361 /* Book.m */; };
+		CEF168911D4C0CE100EF6361 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1688C1D4C0CE100EF6361 /* User+CoreDataProperties.m */; };
+		CEF168921D4C0CE100EF6361 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1688E1D4C0CE100EF6361 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,14 +35,14 @@
 		CEEC40891D4BCC02004B4E9D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		CEF1684E1D4BCFF700EF6361 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
 		CEF1684F1D4BCFF700EF6361 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
-		CEF1685D1D4BDC8800EF6361 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
-		CEF1685E1D4BDC8800EF6361 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
-		CEF1685F1D4BDC8800EF6361 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		CEF168601D4BDC8800EF6361 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
-		CEF168611D4BDC8800EF6361 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
-		CEF168621D4BDC8800EF6361 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
-		CEF168631D4BDC8800EF6361 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		CEF168641D4BDC8800EF6361 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CEF168871D4C0CE100EF6361 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CEF168881D4C0CE100EF6361 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CEF168891D4C0CE100EF6361 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		CEF1688A1D4C0CE100EF6361 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		CEF1688B1D4C0CE100EF6361 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CEF1688C1D4C0CE100EF6361 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CEF1688D1D4C0CE100EF6361 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CEF1688E1D4C0CE100EF6361 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,14 +102,14 @@
 			isa = PBXGroup;
 			children = (
 				CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */,
-				CEF1685D1D4BDC8800EF6361 /* Book+CoreDataProperties.h */,
-				CEF1685E1D4BDC8800EF6361 /* Book+CoreDataProperties.m */,
-				CEF1685F1D4BDC8800EF6361 /* Book.h */,
-				CEF168601D4BDC8800EF6361 /* Book.m */,
-				CEF168611D4BDC8800EF6361 /* User+CoreDataProperties.h */,
-				CEF168621D4BDC8800EF6361 /* User+CoreDataProperties.m */,
-				CEF168631D4BDC8800EF6361 /* User.h */,
-				CEF168641D4BDC8800EF6361 /* User.m */,
+				CEF168871D4C0CE100EF6361 /* Book+CoreDataProperties.h */,
+				CEF168881D4C0CE100EF6361 /* Book+CoreDataProperties.m */,
+				CEF168891D4C0CE100EF6361 /* Book.h */,
+				CEF1688A1D4C0CE100EF6361 /* Book.m */,
+				CEF1688B1D4C0CE100EF6361 /* User+CoreDataProperties.h */,
+				CEF1688C1D4C0CE100EF6361 /* User+CoreDataProperties.m */,
+				CEF1688D1D4C0CE100EF6361 /* User.h */,
+				CEF1688E1D4C0CE100EF6361 /* User.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -193,14 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF168681D4BDC8800EF6361 /* User.m in Sources */,
 				CEF168501D4BCFF700EF6361 /* DAO.m in Sources */,
 				522BFCEB1D4BC74A0028624E /* ViewController.m in Sources */,
-				CEF168671D4BDC8800EF6361 /* User+CoreDataProperties.m in Sources */,
+				CEF168921D4C0CE100EF6361 /* User.m in Sources */,
+				CEF1688F1D4C0CE100EF6361 /* Book+CoreDataProperties.m in Sources */,
 				CEEC408A1D4BCC02004B4E9D /* Model.xcdatamodeld in Sources */,
-				CEF168661D4BDC8800EF6361 /* Book.m in Sources */,
 				522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */,
-				CEF168651D4BDC8800EF6361 /* Book+CoreDataProperties.m in Sources */,
+				CEF168901D4C0CE100EF6361 /* Book.m in Sources */,
+				CEF168911D4C0CE100EF6361 /* User+CoreDataProperties.m in Sources */,
 				522BFCE51D4BC74A0028624E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

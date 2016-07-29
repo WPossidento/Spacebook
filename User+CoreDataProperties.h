@@ -16,9 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface User (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *name;
-@property (nullable, nonatomic, retain) NSNumber *rating;
-@property (nullable, nonatomic, retain) NSNumber *totalRatings;
-@property (nullable, nonatomic, retain) NSNumber *userID;
+@property (nullable, nonatomic, retain) NSString *userID;
+@property (nullable, nonatomic, retain) NSNumber *totalRatingStars;
+@property (nullable, nonatomic, retain) NSNumber *totalPeopleRated;
 @property (nullable, nonatomic, retain) NSSet<Book *> *book;
 
 @end

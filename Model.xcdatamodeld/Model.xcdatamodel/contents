@@ -12,13 +12,13 @@
     </entity>
     <entity name="User" representedClassName="User" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="totalRatings" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="userID" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalPeopleRated" optional="YES" attributeType="Double" syncable="YES"/>
+        <attribute name="totalRatingStars" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="book" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Books" inverseName="user" inverseEntity="Books" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Books" positionX="-54" positionY="18" width="128" height="163"/>
+        <element name="Books" positionX="-18" positionY="-91" width="128" height="163"/>
         <element name="User" positionX="-326" positionY="-66" width="128" height="118"/>
     </elements>
 </model>
