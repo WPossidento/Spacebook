@@ -35,17 +35,26 @@
     self.context = [[NSManagedObjectContext alloc]initWithConcurrencyType:NSMainQueueConcurrencyType];
     [[self context]setPersistentStoreCoordinator:persistentStoreCoordinator];
   }
+  [self initWithHardcodedValues];
+  [self fetchDataFromContext];
+  return self;
+}
+
+- (void)initWithHardcodedValues {
   User *user = [NSEntityDescription insertNewObjectForEntityForName:@"User" inManagedObjectContext:self.context];
   [user setValue:@"Kurt" forKey:@"name"];
   [user setValue:[NSNumber numberWithInt:2] forKey:@"userID"];
   [user setValue:[NSNumber numberWithInt:5] forKey:@"rating"];
   [user setValue:[NSNumber numberWithInt:100] forKey:@"totalRatings"];
   Book *book = (Book *)[NSEntityDescription insertNewObjectForEntityForName:@"Books" inManagedObjectContext:self.context];
-  [book setValue:@"Slaughterhouse IV" forKey:@"title"];
+  [book setTitle:@"Slaughterhouse IV"];
+  [book setCoverImage:@"s5img"];
+  [book setAuthor:@"Kurt Vonnegut"];
+  [book setIsbn:[NSNumber numberWithDouble:123456789]];
+  [book setIsHome:@YES];
+  [book setBearer:user.name];
   [user addBookObject:book];
-  
-  [self fetchDataFromContext];
-  return self;
+  NSLog(@"%@",book);
 }
 
 - (NSString *)archivePath {
@@ -63,7 +72,7 @@
   NSEntityDescription *entity = [[[self model] entitiesByName] objectForKey:@"User"];
   [request setEntity:entity];
   NSError *error = nil;
-  NSArray *result = [[self context] executeFetchRequest:request error:&error];    //  Get data from context
+  NSArray *result = [[self context] executeFetchRequest:request error:&error];
   if (!result) {
     NSLog(@"Error fetching objects: %@\n%@", [error localizedDescription], [error userInfo]);
     abort();
