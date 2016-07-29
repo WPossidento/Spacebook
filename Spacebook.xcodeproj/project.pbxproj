@@ -11,14 +11,14 @@
 		522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCE71D4BC74A0028624E /* AppDelegate.m */; };
 		522BFCEB1D4BC74A0028624E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEA1D4BC74A0028624E /* ViewController.m */; };
 		522BFCEE1D4BC74A0028624E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCEC1D4BC74A0028624E /* Main.storyboard */; };
-		522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */; };
 		522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF21D4BC74A0028624E /* Assets.xcassets */; };
 		522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */; };
 		CEEC408A1D4BCC02004B4E9D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */; };
-		CEEC40B81D4BCEA0004B4E9D /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B11D4BCEA0004B4E9D /* Book+CoreDataProperties.m */; };
-		CEEC40B91D4BCEA0004B4E9D /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B31D4BCEA0004B4E9D /* Book.m */; };
-		CEEC40BA1D4BCEA0004B4E9D /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B51D4BCEA0004B4E9D /* User+CoreDataProperties.m */; };
-		CEEC40BB1D4BCEA0004B4E9D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC40B71D4BCEA0004B4E9D /* User.m */; };
+		CEF168501D4BCFF700EF6361 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1684F1D4BCFF700EF6361 /* DAO.m */; };
+		CEF168651D4BDC8800EF6361 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF1685E1D4BDC8800EF6361 /* Book+CoreDataProperties.m */; };
+		CEF168661D4BDC8800EF6361 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168601D4BDC8800EF6361 /* Book.m */; };
+		CEF168671D4BDC8800EF6361 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168621D4BDC8800EF6361 /* User+CoreDataProperties.m */; };
+		CEF168681D4BDC8800EF6361 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF168641D4BDC8800EF6361 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,19 +29,20 @@
 		522BFCE91D4BC74A0028624E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		522BFCEA1D4BC74A0028624E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		522BFCED1D4BC74A0028624E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		522BFCF01D4BC74A0028624E /* Spacebook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spacebook.xcdatamodel; sourceTree = "<group>"; };
 		522BFCF21D4BC74A0028624E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522BFCF51D4BC74A0028624E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BFCF71D4BC74A0028624E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEEC40891D4BCC02004B4E9D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		CEEC40B01D4BCEA0004B4E9D /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
-		CEEC40B11D4BCEA0004B4E9D /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
-		CEEC40B21D4BCEA0004B4E9D /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		CEEC40B31D4BCEA0004B4E9D /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
-		CEEC40B41D4BCEA0004B4E9D /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
-		CEEC40B51D4BCEA0004B4E9D /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
-		CEEC40B61D4BCEA0004B4E9D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		CEEC40B71D4BCEA0004B4E9D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CEF1684E1D4BCFF700EF6361 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		CEF1684F1D4BCFF700EF6361 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		CEF1685D1D4BDC8800EF6361 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CEF1685E1D4BDC8800EF6361 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CEF1685F1D4BDC8800EF6361 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		CEF168601D4BDC8800EF6361 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		CEF168611D4BDC8800EF6361 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CEF168621D4BDC8800EF6361 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CEF168631D4BDC8800EF6361 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CEF168641D4BDC8800EF6361 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		522BFCD71D4BC74A0028624E = {
 			isa = PBXGroup;
 			children = (
+				CEF1684D1D4BCFC300EF6361 /* DAO */,
 				CEEC40AF1D4BCE72004B4E9D /* CoreData */,
 				522BFCE21D4BC74A0028624E /* Spacebook */,
 				522BFCE11D4BC74A0028624E /* Products */,
@@ -83,7 +85,6 @@
 				522BFCF21D4BC74A0028624E /* Assets.xcassets */,
 				522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */,
 				522BFCF71D4BC74A0028624E /* Info.plist */,
-				522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */,
 				522BFCE31D4BC74A0028624E /* Supporting Files */,
 			);
 			path = Spacebook;
@@ -101,16 +102,25 @@
 			isa = PBXGroup;
 			children = (
 				CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */,
-				CEEC40B01D4BCEA0004B4E9D /* Book+CoreDataProperties.h */,
-				CEEC40B11D4BCEA0004B4E9D /* Book+CoreDataProperties.m */,
-				CEEC40B21D4BCEA0004B4E9D /* Book.h */,
-				CEEC40B31D4BCEA0004B4E9D /* Book.m */,
-				CEEC40B41D4BCEA0004B4E9D /* User+CoreDataProperties.h */,
-				CEEC40B51D4BCEA0004B4E9D /* User+CoreDataProperties.m */,
-				CEEC40B61D4BCEA0004B4E9D /* User.h */,
-				CEEC40B71D4BCEA0004B4E9D /* User.m */,
+				CEF1685D1D4BDC8800EF6361 /* Book+CoreDataProperties.h */,
+				CEF1685E1D4BDC8800EF6361 /* Book+CoreDataProperties.m */,
+				CEF1685F1D4BDC8800EF6361 /* Book.h */,
+				CEF168601D4BDC8800EF6361 /* Book.m */,
+				CEF168611D4BDC8800EF6361 /* User+CoreDataProperties.h */,
+				CEF168621D4BDC8800EF6361 /* User+CoreDataProperties.m */,
+				CEF168631D4BDC8800EF6361 /* User.h */,
+				CEF168641D4BDC8800EF6361 /* User.m */,
 			);
 			name = CoreData;
+			sourceTree = "<group>";
+		};
+		CEF1684D1D4BCFC300EF6361 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				CEF1684E1D4BCFF700EF6361 /* DAO.h */,
+				CEF1684F1D4BCFF700EF6361 /* DAO.m */,
+			);
+			name = DAO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,14 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF168681D4BDC8800EF6361 /* User.m in Sources */,
+				CEF168501D4BCFF700EF6361 /* DAO.m in Sources */,
 				522BFCEB1D4BC74A0028624E /* ViewController.m in Sources */,
-				522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */,
-				CEEC40BB1D4BCEA0004B4E9D /* User.m in Sources */,
-				CEEC40B81D4BCEA0004B4E9D /* Book+CoreDataProperties.m in Sources */,
+				CEF168671D4BDC8800EF6361 /* User+CoreDataProperties.m in Sources */,
 				CEEC408A1D4BCC02004B4E9D /* Model.xcdatamodeld in Sources */,
+				CEF168661D4BDC8800EF6361 /* Book.m in Sources */,
 				522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */,
-				CEEC40B91D4BCEA0004B4E9D /* Book.m in Sources */,
-				CEEC40BA1D4BCEA0004B4E9D /* User+CoreDataProperties.m in Sources */,
+				CEF168651D4BDC8800EF6361 /* Book+CoreDataProperties.m in Sources */,
 				522BFCE51D4BC74A0028624E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,16 +357,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				522BFCF01D4BC74A0028624E /* Spacebook.xcdatamodel */,
-			);
-			currentVersion = 522BFCF01D4BC74A0028624E /* Spacebook.xcdatamodel */;
-			path = Spacebook.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		CEEC40881D4BCC02004B4E9D /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

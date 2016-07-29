@@ -13,12 +13,13 @@
 
 @implementation Book (CoreDataProperties)
 
-@dynamic coverImage;
-@dynamic title;
 @dynamic author;
+@dynamic bearer;
+@dynamic coverImage;
 @dynamic isbn;
 @dynamic isHome;
-@dynamic bearer;
 @dynamic owner;
+@dynamic title;
+@dynamic user;
 
 @end

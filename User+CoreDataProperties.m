@@ -14,9 +14,9 @@
 @implementation User (CoreDataProperties)
 
 @dynamic name;
-@dynamic userID;
 @dynamic rating;
 @dynamic totalRatings;
+@dynamic userID;
 @dynamic book;
 
 @end
