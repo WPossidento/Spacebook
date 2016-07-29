@@ -15,7 +15,8 @@
 		522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */; };
 		522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF21D4BC74A0028624E /* Assets.xcassets */; };
 		522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */; };
-		536BAE4A1D4BCDFE00CBA88E /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 536BAE491D4BCDFE00CBA88E /* GoogleService-Info (1).plist */; };
+		5344A8ED1D4BDD3E0067BDFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5344A8EC1D4BDD3E0067BDFC /* GoogleService-Info.plist */; };
+		536BAE4D1D4BD81F00CBA88E /* FireBaseCalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 536BAE4C1D4BD81F00CBA88E /* FireBaseCalls.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,9 @@
 		522BFCF21D4BC74A0028624E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522BFCF51D4BC74A0028624E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BFCF71D4BC74A0028624E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		536BAE491D4BCDFE00CBA88E /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		5344A8EC1D4BDD3E0067BDFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		536BAE4B1D4BD81F00CBA88E /* FireBaseCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireBaseCalls.h; sourceTree = "<group>"; };
+		536BAE4C1D4BD81F00CBA88E /* FireBaseCalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireBaseCalls.m; sourceTree = "<group>"; };
 		9473E698086D1C1DC19169AB /* Pods-Spacebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spacebook/Pods-Spacebook.release.xcconfig"; sourceTree = "<group>"; };
 		A7A06C4390CCB8DF5F87A81F /* libPods-Spacebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spacebook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,13 +82,15 @@
 			children = (
 				522BFCE61D4BC74A0028624E /* AppDelegate.h */,
 				522BFCE71D4BC74A0028624E /* AppDelegate.m */,
+				536BAE4B1D4BD81F00CBA88E /* FireBaseCalls.h */,
+				536BAE4C1D4BD81F00CBA88E /* FireBaseCalls.m */,
 				522BFCE91D4BC74A0028624E /* ViewController.h */,
 				522BFCEA1D4BC74A0028624E /* ViewController.m */,
 				522BFCEC1D4BC74A0028624E /* Main.storyboard */,
 				522BFCF21D4BC74A0028624E /* Assets.xcassets */,
 				522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */,
 				522BFCF71D4BC74A0028624E /* Info.plist */,
-				536BAE491D4BCDFE00CBA88E /* GoogleService-Info (1).plist */,
+				5344A8EC1D4BDD3E0067BDFC /* GoogleService-Info.plist */,
 				522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */,
 				522BFCE31D4BC74A0028624E /* Supporting Files */,
 			);
@@ -170,9 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */,
+				5344A8ED1D4BDD3E0067BDFC /* GoogleService-Info.plist in Resources */,
 				522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */,
 				522BFCEE1D4BC74A0028624E /* Main.storyboard in Resources */,
-				536BAE4A1D4BCDFE00CBA88E /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +240,7 @@
 				522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */,
 				522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */,
 				522BFCE51D4BC74A0028624E /* main.m in Sources */,
+				536BAE4D1D4BD81F00CBA88E /* FireBaseCalls.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
