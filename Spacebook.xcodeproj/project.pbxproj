@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36AA686B7A908A8F0B11D7A4 /* libPods-Spacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A06C4390CCB8DF5F87A81F /* libPods-Spacebook.a */; };
 		522BFCE51D4BC74A0028624E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCE41D4BC74A0028624E /* main.m */; };
 		522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCE71D4BC74A0028624E /* AppDelegate.m */; };
 		522BFCEB1D4BC74A0028624E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEA1D4BC74A0028624E /* ViewController.m */; };
@@ -14,9 +15,11 @@
 		522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */; };
 		522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF21D4BC74A0028624E /* Assets.xcassets */; };
 		522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */; };
+		536BAE4A1D4BCDFE00CBA88E /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 536BAE491D4BCDFE00CBA88E /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FA2C4BB8A705D33EF6B5D02 /* Pods-Spacebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spacebook/Pods-Spacebook.debug.xcconfig"; sourceTree = "<group>"; };
 		522BFCE01D4BC74A0028624E /* Spacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BFCE41D4BC74A0028624E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		522BFCE61D4BC74A0028624E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +31,9 @@
 		522BFCF21D4BC74A0028624E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522BFCF51D4BC74A0028624E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BFCF71D4BC74A0028624E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536BAE491D4BCDFE00CBA88E /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		9473E698086D1C1DC19169AB /* Pods-Spacebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spacebook/Pods-Spacebook.release.xcconfig"; sourceTree = "<group>"; };
+		A7A06C4390CCB8DF5F87A81F /* libPods-Spacebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spacebook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AA686B7A908A8F0B11D7A4 /* libPods-Spacebook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B141878AED85FB80CA2EE8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A06C4390CCB8DF5F87A81F /* libPods-Spacebook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		522BFCD71D4BC74A0028624E = {
 			isa = PBXGroup;
 			children = (
 				522BFCE21D4BC74A0028624E /* Spacebook */,
 				522BFCE11D4BC74A0028624E /* Products */,
+				C928ADEEE324059E36AB2092 /* Pods */,
+				2B141878AED85FB80CA2EE8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +85,7 @@
 				522BFCF21D4BC74A0028624E /* Assets.xcassets */,
 				522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */,
 				522BFCF71D4BC74A0028624E /* Info.plist */,
+				536BAE491D4BCDFE00CBA88E /* GoogleService-Info (1).plist */,
 				522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */,
 				522BFCE31D4BC74A0028624E /* Supporting Files */,
 			);
@@ -82,6 +100,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C928ADEEE324059E36AB2092 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2C4BB8A705D33EF6B5D02 /* Pods-Spacebook.debug.xcconfig */,
+				9473E698086D1C1DC19169AB /* Pods-Spacebook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 522BFCFA1D4BC74A0028624E /* Build configuration list for PBXNativeTarget "Spacebook" */;
 			buildPhases = (
+				3D881C494E88D910C56BDB47 /* [CP] Check Pods Manifest.lock */,
 				522BFCDC1D4BC74A0028624E /* Sources */,
 				522BFCDD1D4BC74A0028624E /* Frameworks */,
 				522BFCDE1D4BC74A0028624E /* Resources */,
+				53102C4B6EE174B79943AA3C /* [CP] Embed Pods Frameworks */,
+				38CAF81F5E8DB1FE94FDFBF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,10 +172,59 @@
 				522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */,
 				522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */,
 				522BFCEE1D4BC74A0028624E /* Main.storyboard in Resources */,
+				536BAE4A1D4BCDFE00CBA88E /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38CAF81F5E8DB1FE94FDFBF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spacebook/Pods-Spacebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D881C494E88D910C56BDB47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53102C4B6EE174B79943AA3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spacebook/Pods-Spacebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		522BFCDC1D4BC74A0028624E /* Sources */ = {
@@ -267,6 +346,7 @@
 		};
 		522BFCFB1D4BC74A0028624E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA2C4BB8A705D33EF6B5D02 /* Pods-Spacebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spacebook/Info.plist;
@@ -278,6 +358,7 @@
 		};
 		522BFCFC1D4BC74A0028624E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9473E698086D1C1DC19169AB /* Pods-Spacebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spacebook/Info.plist;
@@ -306,6 +387,7 @@
 				522BFCFC1D4BC74A0028624E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
