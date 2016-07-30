@@ -1,18 +1,18 @@
 //
-//  SearchViewController.m
+//  SearchResultsDetailedViewController.m
 //  Spacebook
 //
 //  Created by Macbook Pro on 7/30/16.
 //  Copyright © 2016 William Possidento. All rights reserved.
 //
 
-#import "SearchViewController.h"
+#import "SearchResultsDetailedViewController.h"
 
-@interface SearchViewController ()
+@interface SearchResultsDetailedViewController ()
 
 @end
 
-@implementation SearchViewController
+@implementation SearchResultsDetailedViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

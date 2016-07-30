@@ -1,5 +1,5 @@
 //
-//  SearchViewController.h
+//  SearchResultsViewController.h
 //  Spacebook
 //
 //  Created by Macbook Pro on 7/30/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchViewController : UIViewController
+@interface SearchResultsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
