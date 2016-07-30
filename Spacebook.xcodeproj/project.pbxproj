@@ -14,6 +14,9 @@
 		522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCEF1D4BC74A0028624E /* Spacebook.xcdatamodeld */; };
 		522BFCF31D4BC74A0028624E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF21D4BC74A0028624E /* Assets.xcassets */; };
 		522BFCF61D4BC74A0028624E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */; };
+		522BFCFF1D4BD5B40028624E /* MyLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFCFE1D4BD5B40028624E /* MyLibraryViewController.m */; };
+		522BFD051D4BD9F90028624E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFD041D4BD9F90028624E /* SearchViewController.m */; };
+		522BFD081D4BE4550028624E /* MyLibraryDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BFD071D4BE4550028624E /* MyLibraryDetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		522BFCF21D4BC74A0028624E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522BFCF51D4BC74A0028624E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BFCF71D4BC74A0028624E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522BFCFD1D4BD5B40028624E /* MyLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibraryViewController.h; sourceTree = "<group>"; };
+		522BFCFE1D4BD5B40028624E /* MyLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLibraryViewController.m; sourceTree = "<group>"; };
+		522BFD031D4BD9F90028624E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ../SearchViewController.h; sourceTree = "<group>"; };
+		522BFD041D4BD9F90028624E /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ../SearchViewController.m; sourceTree = "<group>"; };
+		522BFD061D4BE4550028624E /* MyLibraryDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibraryDetailedViewController.h; sourceTree = "<group>"; };
+		522BFD071D4BE4550028624E /* MyLibraryDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLibraryDetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,12 @@
 				522BFCE71D4BC74A0028624E /* AppDelegate.m */,
 				522BFCE91D4BC74A0028624E /* ViewController.h */,
 				522BFCEA1D4BC74A0028624E /* ViewController.m */,
+				522BFCFD1D4BD5B40028624E /* MyLibraryViewController.h */,
+				522BFCFE1D4BD5B40028624E /* MyLibraryViewController.m */,
+				522BFD061D4BE4550028624E /* MyLibraryDetailedViewController.h */,
+				522BFD071D4BE4550028624E /* MyLibraryDetailedViewController.m */,
+				522BFD031D4BD9F90028624E /* SearchViewController.h */,
+				522BFD041D4BD9F90028624E /* SearchViewController.m */,
 				522BFCEC1D4BC74A0028624E /* Main.storyboard */,
 				522BFCF21D4BC74A0028624E /* Assets.xcassets */,
 				522BFCF41D4BC74A0028624E /* LaunchScreen.storyboard */,
@@ -152,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522BFD081D4BE4550028624E /* MyLibraryDetailedViewController.m in Sources */,
 				522BFCEB1D4BC74A0028624E /* ViewController.m in Sources */,
+				522BFCFF1D4BD5B40028624E /* MyLibraryViewController.m in Sources */,
 				522BFCF11D4BC74A0028624E /* Spacebook.xcdatamodeld in Sources */,
 				522BFCE81D4BC74A0028624E /* AppDelegate.m in Sources */,
+				522BFD051D4BD9F90028624E /* SearchViewController.m in Sources */,
 				522BFCE51D4BC74A0028624E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

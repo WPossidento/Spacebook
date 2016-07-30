@@ -6,13 +6,13 @@
 //  Copyright © 2016 William Possidento. All rights reserved.
 //
 
-#import "MyLibraryControllerViewController.h"
+#import "MyLibraryViewController.h"
 
-@interface MyLibraryControllerViewController ()
+@interface MyLibraryViewController ()
 
 @end
 
-@implementation MyLibraryControllerViewController
+@implementation MyLibraryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +22,34 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // #warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    // Return the number of rows in the section.
+    return 7; // Change later to count of books inventory.
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    
+    // Configure the cell...
+    cell.textLabel.text = @"Text";
+    return cell;
+    
 }
 
 /*
